@@ -1,26 +1,242 @@
 [
   {
     "id": 1,
-    "src": "/images/2025-06-19 14.00.43.jpg",
-    "caption": "Beautiful sunset over the mountains",
-    "date": "2024-03-15"
+    "src": "/images/2023-07-08 11.28.01.jpg",
+    "caption": "",
+    "date": "2023-07-08"
   },
   {
     "id": 2,
-    "src": "/images/2025-06-19 14.01.07.jpg",
-    "caption": "City skyline at night",
-    "date": "2024-03-20"
+    "src": "/images/2023-07-08 12.08.32.jpg",
+    "caption": "",
+    "date": "2023-07-08"
   },
   {
     "id": 3,
-    "src": "/images/2025-06-19 14.01.16.jpg",
-    "caption": "Ocean waves crashing on rocks",
-    "date": "2024-04-01"
+    "src": "/images/2023-07-08 15.58.46.jpg",
+    "caption": "",
+    "date": "2023-07-08"
   },
   {
     "id": 4,
-    "src": "/images/2025-06-19 14.02.04.jpg",
-    "caption": "Forest path in autumn",
-    "date": "2024-04-10"
+    "src": "/images/2023-07-08 16.51.24.jpg",
+    "caption": "",
+    "date": "2023-07-08"
+  },
+  {
+    "id": 5,
+    "src": "/images/2023-07-08 16.51.39.jpg",
+    "caption": "",
+    "date": "2023-07-08"
+  },
+  {
+    "id": 6,
+    "src": "/images/2023-07-09 10.17.02.jpg",
+    "caption": "",
+    "date": "2023-07-09"
+  },
+  {
+    "id": 7,
+    "src": "/images/2023-07-09 12.31.24.jpg",
+    "caption": "",
+    "date": "2023-07-09"
+  },
+  {
+    "id": 8,
+    "src": "/images/2023-07-10 11.04.15.jpg",
+    "caption": "",
+    "date": "2023-07-10"
+  },
+  {
+    "id": 9,
+    "src": "/images/2023-07-10 15.00.18.jpg",
+    "caption": "",
+    "date": "2023-07-10"
+  },
+  {
+    "id": 10,
+    "src": "/images/2023-07-11 14.46.42.jpeg",
+    "caption": "",
+    "date": "2023-07-11"
+  },
+  {
+    "id": 11,
+    "src": "/images/2023-07-12 07.48.04.jpg",
+    "caption": "",
+    "date": "2023-07-12"
+  },
+  {
+    "id": 12,
+    "src": "/images/2023-07-12 07.48.34.jpg",
+    "caption": "",
+    "date": "2023-07-12"
+  },
+  {
+    "id": 13,
+    "src": "/images/2023-07-12 21.53.34.jpg",
+    "caption": "",
+    "date": "2023-07-12"
+  },
+  {
+    "id": 14,
+    "src": "/images/2023-07-12 21.53.37.jpg",
+    "caption": "",
+    "date": "2023-07-12"
+  },
+  {
+    "id": 15,
+    "src": "/images/2023-07-12 21.53.42.jpg",
+    "caption": "",
+    "date": "2023-07-12"
+  },
+  {
+    "id": 16,
+    "src": "/images/2023-07-12 21.53.46.jpg",
+    "caption": "",
+    "date": "2023-07-12"
+  },
+  {
+    "id": 17,
+    "src": "/images/2023-07-12 21.53.50.jpg",
+    "caption": "",
+    "date": "2023-07-12"
+  },
+  {
+    "id": 18,
+    "src": "/images/2023-07-13 18.01.14-1.jpg",
+    "caption": "",
+    "date": "2023-07-13"
+  },
+  {
+    "id": 19,
+    "src": "/images/2023-07-13 18.01.14-2.jpg",
+    "caption": "",
+    "date": "2023-07-13"
+  },
+  {
+    "id": 20,
+    "src": "/images/2023-07-22 08.59.24.jpg",
+    "caption": "",
+    "date": "2023-07-22"
+  },
+  {
+    "id": 21,
+    "src": "/images/2023-07-22 10.11.29.jpg",
+    "caption": "",
+    "date": "2023-07-22"
+  },
+  {
+    "id": 22,
+    "src": "/images/2023-07-22 12.35.26.jpg",
+    "caption": "",
+    "date": "2023-07-22"
+  },
+  {
+    "id": 23,
+    "src": "/images/2023-07-22 14.27.24.jpg",
+    "caption": "",
+    "date": "2023-07-22"
+  },
+  {
+    "id": 24,
+    "src": "/images/2023-07-22 16.16.25.jpg",
+    "caption": "",
+    "date": "2023-07-22"
+  },
+  {
+    "id": 25,
+    "src": "/images/2023-07-22 16.27.42.jpg",
+    "caption": "",
+    "date": "2023-07-22"
+  },
+  {
+    "id": 26,
+    "src": "/images/2023-07-23 10.00.19.jpg",
+    "caption": "",
+    "date": "2023-07-23"
+  },
+  {
+    "id": 27,
+    "src": "/images/2023-07-23 10.00.53.jpg",
+    "caption": "",
+    "date": "2023-07-23"
+  },
+  {
+    "id": 28,
+    "src": "/images/2023-07-23 15.11.52.jpg",
+    "caption": "",
+    "date": "2023-07-23"
+  },
+  {
+    "id": 29,
+    "src": "/images/2023-07-26 10.35.48.jpg",
+    "caption": "",
+    "date": "2023-07-26"
+  },
+  {
+    "id": 30,
+    "src": "/images/2023-07-26 15.10.35.jpg",
+    "caption": "",
+    "date": "2023-07-26"
+  },
+  {
+    "id": 31,
+    "src": "/images/2023-07-26 16.17.35.jpg",
+    "caption": "",
+    "date": "2023-07-26"
+  },
+  {
+    "id": 32,
+    "src": "/images/2023-07-26 16.17.54.jpg",
+    "caption": "",
+    "date": "2023-07-26"
+  },
+  {
+    "id": 33,
+    "src": "/images/2023-07-26 16.25.41.jpg",
+    "caption": "",
+    "date": "2023-07-26"
+  },
+  {
+    "id": 34,
+    "src": "/images/2023-07-26 17.11.02.jpg",
+    "caption": "",
+    "date": "2023-07-26"
+  },
+  {
+    "id": 35,
+    "src": "/images/2023-07-26 17.21.19.jpg",
+    "caption": "",
+    "date": "2023-07-26"
+  },
+  {
+    "id": 36,
+    "src": "/images/2023-07-26 18.33.30.jpg",
+    "caption": "",
+    "date": "2023-07-26"
+  },
+  {
+    "id": 37,
+    "src": "/images/2023-07-26 18.33.31.jpg",
+    "caption": "",
+    "date": "2023-07-26"
+  },
+  {
+    "id": 38,
+    "src": "/images/2023-08-06 16.50.32.jpg",
+    "caption": "",
+    "date": "2023-08-06"
+  },
+  {
+    "id": 39,
+    "src": "/images/2023-08-13 16.42.33.jpg",
+    "caption": "",
+    "date": "2023-08-13"
+  },
+  {
+    "id": 40,
+    "src": "/images/2024-01-14 07.30.38.jpg",
+    "caption": "",
+    "date": "2024-01-14"
   }
 ]

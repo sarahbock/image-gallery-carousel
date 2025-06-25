@@ -2,7 +2,7 @@
   "name": "image-gallery",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://elearnaustralia.com.au/temp/image-gallery/",
+  "homepage": "http://bock.com.au/shack",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
