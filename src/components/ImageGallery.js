@@ -1,13 +1,36 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import galleryData from '../data/gallery.json';
 import './ImageGallery.css';
 
 const ImageGallery = () => {
   const [images, setImages] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isLoading, setIsLoading] = useState(false);
+  const [showImage, setShowImage] = useState(false);
+
+  const handleNext = useCallback(() => {
+    setShowImage(false);
+    setIsLoading(true);
+    setTimeout(() => {
+      setCurrentIndex((prevIndex) => 
+        prevIndex === images.length - 1 ? 0 : prevIndex + 1
+      );
+    }, 50);
+  }, [images.length]);
+
+  const handlePrevious = useCallback(() => {
+    setShowImage(false);
+    setIsLoading(true);
+    setTimeout(() => {
+      setCurrentIndex((prevIndex) => 
+        prevIndex === 0 ? images.length - 1 : prevIndex - 1
+      );
+    }, 50);
+  }, [images.length]);
 
   useEffect(() => {
     setImages(galleryData);
+    setIsLoading(true);
   }, []);
 
   useEffect(() => {
@@ -24,18 +47,16 @@ const ImageGallery = () => {
     return () => {
       window.removeEventListener('keydown', handleKeyDown);
     };
-  }, [images.length]);
+  }, [images.length, handleNext, handlePrevious]);
 
-  const handleNext = () => {
-    setCurrentIndex((prevIndex) => 
-      prevIndex === images.length - 1 ? 0 : prevIndex + 1
-    );
+  const handleImageLoad = () => {
+    setIsLoading(false);
+    setShowImage(true);
   };
 
-  const handlePrevious = () => {
-    setCurrentIndex((prevIndex) => 
-      prevIndex === 0 ? images.length - 1 : prevIndex - 1
-    );
+  const handleImageError = () => {
+    setIsLoading(false);
+    setShowImage(true);
   };
 
   if (images.length === 0) {
@@ -66,10 +87,17 @@ const ImageGallery = () => {
         </button>
         
         <div className="carousel-content">
+          {isLoading && (
+            <div className="loading-indicator">
+              <div className="spinner"></div>
+            </div>
+          )}
           <img 
             src={currentImage.src} 
             alt={currentImage.caption} 
-            className="carousel-image" 
+            className={`carousel-image ${showImage ? 'visible' : 'hidden'}`}
+            onLoad={handleImageLoad}
+            onError={handleImageError}
           />
           <div className="image-info">
             <p className="caption">{currentImage.caption}</p>

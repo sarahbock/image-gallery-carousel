@@ -79,6 +79,37 @@
   height: 100%;
   object-fit: contain;
   display: block;
+  transition: opacity 0.3s ease;
+}
+
+.carousel-image.visible {
+  opacity: 1;
+}
+
+.carousel-image.hidden {
+  opacity: 0;
+}
+
+.loading-indicator {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgba(13, 140, 39, 0.3);
+  border-top: 3px solid rgba(44, 153, 92, 0.8);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 
 .image-info {
@@ -153,5 +184,11 @@
   
   .image-info .counter {
     font-size: 10px;
+  }
+  
+  .spinner {
+    width: 30px;
+    height: 30px;
+    border-width: 2px;
   }
 }
